@@ -1,7 +1,7 @@
 {
-  "name": "playwing-markup",
+  "name": "kiosk-markup",
   "version": "1.0.0",
-  "description": "Playwing Markup",
+  "description": "Kiosk Markup",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "gulp",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dubisoft-solutions/playwing-markup.git"
+    "url": "https://github.com/dubisoft-solutions/kiosk-markup.git"
   },
   "author": "Ivan Dubynets",
   "license": "ISC",

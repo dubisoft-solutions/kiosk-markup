@@ -1,0 +1,93 @@
+.form-control {
+    border-radius: $border-radius!important;
+    border: none;
+    background-color: $light-248!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    border-left: 0!important;
+    line-height: 1;
+    &::placeholder {
+        font-style: italic;
+        color: $silver;
+        @include media-breakpoint-down(md) {
+            font-size: .375rem;
+        }
+        @include media-breakpoint-up(xxxxl) {
+            font-size: .875rem;
+        }
+    }
+    &:focus {
+        box-shadow: none;
+        border-color: transparent;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: .5rem;
+        border-radius: .313rem!important;
+        border-top-left-radius: 0!important;
+        border-bottom-left-radius: 0!important;
+        padding: .641rem .188rem;
+    }
+    @include media-breakpoint-up(xxxxl) {
+        font-size: .875rem;
+        padding: .5rem .5rem;
+    }
+}
+
+.input-group-text {
+    position: relative;
+    border-radius: $border-radius!important;
+    border: none;
+    background-color: $light-248!important;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+    border-right: 0!important;
+    &::after {
+        content: "";
+        display: inline;
+        width: .1rem;
+        height: 2rem;
+        background-color: $light-gray;
+        border-radius: .188rem;
+        position: absolute;
+        top: .6rem;
+        right: .125rem;
+        @include media-breakpoint-down(md) {
+            width: .058rem;
+            height: 1.125rem;
+            top: .4rem;
+            right: .05rem;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        border-radius: .313rem!important;
+        border-top-right-radius: 0!important;
+        border-bottom-right-radius: 0!important;
+        padding: .43rem .2rem;
+    }
+    @include media-breakpoint-up(xxxxl) {
+        padding: .5rem .5rem;
+    }
+}
+
+.contact-form {
+    .form-control {
+        background-color: $light-255!important;
+        border-radius: 0!important;
+        padding: .5rem;
+        &:focus {
+            box-shadow: none;
+        }
+        &::placeholder {
+            font-style: normal;
+        }
+    }
+}
+
+.invalid-feedback {
+    font-weight: $font-weight-medium;
+}
+
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+    box-shadow: none;
+}

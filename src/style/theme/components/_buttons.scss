@@ -1,0 +1,27 @@
+.btn-success {
+    color: $white;
+    box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+    min-width: 9.75rem;
+    &:focus,
+    &:hover,
+    &:active {
+        box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+        color: $white;
+        background-color: $green-119;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: .625rem;
+        padding: .375rem 1rem;
+        min-width: 5.875rem;
+    }
+}
+
+.btn-link {
+    @include media-breakpoint-down(md) {
+        font-size: .688rem;
+        color: $white;
+    }
+    @include media-breakpoint-up(xxxxl) {
+        font-size: 1.25rem;
+    }
+}

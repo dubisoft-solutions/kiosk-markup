@@ -1,0 +1,210 @@
+@import 'theme/theme';
+.index {
+    background-color: $white;
+    main {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+            bottom: 0;
+            z-index: -1;
+            background-image: url("../img/wave.svg");
+            @include media-breakpoint-down(sm) {
+                background-image: url("../img/wave-mobile.svg");
+            }
+        }
+        &::before {
+            @include media-breakpoint-down(xs) {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background-position: bottom right;
+                background-repeat: no-repeat;
+                bottom: 0;
+                right: .938rem;
+                z-index: -1;
+                background-image: url("../img/step-img-3.png");
+            }
+        }
+    }
+    &.contact {
+        main {
+            &::after {
+                background-size: cover;
+            }
+        }
+        .hero-img-decor-one {
+            position: absolute;
+            top: 5rem!important;
+            left: 0;
+            width: 90%;
+        }
+        .hero-img-decor-two {
+            position: absolute;
+            top: -5.5rem!important;
+            right: 0;
+            width: 90%;
+        }
+        @include media-breakpoint-down(sm) {
+            h4 {
+                font-size: 1rem!important;
+            }
+            p {
+                font-size: .438rem;
+            }
+            .hero-img-decor-one {
+                position: absolute;
+                bottom: -405px;
+                left: 0;
+            }
+            .hero-img-decor-two {
+                position: absolute;
+                top: -65px;
+                right: -195px;
+            }
+        }
+        @include media-breakpoint-between(sm,
+        lg) {
+            .pb-6 {
+                padding-bottom: 2rem!important;
+            }
+            .hero-img-decor-one {
+                position: absolute;
+                bottom: -26.5rem!important;
+                left: 0;
+                width: 90%;
+            }
+            .hero-img-decor-two {
+                position: absolute;
+                top: -1rem!important;
+                right: 0;
+                width: 90%;
+            }
+        }
+        main {
+            &::before {
+                @include media-breakpoint-between(md,
+                lg) {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    background-position: bottom right;
+                    background-repeat: no-repeat;
+                    bottom: 0;
+                    right: 80px;
+                    z-index: -1;
+                    background-image: url("../img/step-img-4-mobile.png");
+                }
+                @include media-breakpoint-down(md) {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    background-position: bottom right;
+                    background-repeat: no-repeat;
+                    bottom: 0;
+                    right: 25px;
+                    z-index: -1;
+                    background-image: url("../img/step-img-4-mobile.png");
+                }
+            }
+        }
+    }
+    .step-decor-img {
+        width: 100%;
+        position: absolute;
+        bottom: -11rem;
+        right: .938rem;
+        @include media-breakpoint-down(lg) {
+            bottom: 0;
+            right: 0;
+        }
+    }
+    .icon-size {
+        font-size: .938rem;
+        @include media-breakpoint-down(md) {
+            font-size: .563rem;
+        }
+    }
+    .hero-img-decor-one {
+        position: relative;
+        bottom: -2.5rem;
+        left: 0;
+        width: 100%;
+        @include media-breakpoint-down(sm) {
+            bottom: 1.75rem;
+        }
+        @include media-breakpoint-between(sm,
+        lg) {
+            bottom: 1.5rem;
+        }
+    }
+    .hero-img-decor-two {
+        position: relative;
+        top: -3.75rem;
+        right: 0;
+        width: 100%;
+        @include media-breakpoint-down(sm) {
+            position: absolute;
+            top: 3.125rem;
+            right: -2.813rem;
+            width: 150%;
+            z-index: -1;
+        }
+        @include media-breakpoint-between(sm,
+        md) {
+            position: absolute;
+            top: -2.188rem;
+            right: 0;
+            width: 100%;
+        }
+        @include media-breakpoint-between(md,
+        lg) {
+            position: absolute;
+            top: 1.25rem;
+            right: 0;
+            width: 100%;
+        }
+    }
+    .number-decor {
+        top: -1.125rem;
+        left: -.188rem;
+        @include media-breakpoint-down(md) {
+            top: -.5rem;
+        }
+    }
+    .recaptcha-style {
+        transform: scale(0.6);
+        -webkit-transform: scale(0.6);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        height: 8vh;
+        @include media-breakpoint-down(md) {
+            transform: scale(0.4);
+            -webkit-transform: scale(0.4);
+            height: 7vh;
+        }
+    }
+    .footer {
+        padding-bottom: 1.5rem;
+        @include media-breakpoint-down(md) {
+            padding: .5rem 0;
+            background-color: $black-49;
+            opacity: .8;
+        }
+    }
+}

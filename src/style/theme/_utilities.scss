@@ -1,0 +1,104 @@
+.fw-medium {
+    font-weight: $font-weight-medium;
+}
+
+.text-secondary {
+    color: $gray!important;
+}
+
+.text-dark {
+    color: $black!important;
+}
+
+.bg-card {
+    background-color: $green-139;
+}
+
+.bg-green {
+    background-color: $green-144;
+}
+
+.heading-color {
+    color: $green-111;
+}
+
+.description-color {
+    color: $blue-97;
+}
+
+.rounded-1 {
+    border-radius: $border-radius!important;
+}
+
+.rounded-2 {
+    border-radius: $border-radius-sm!important;
+}
+
+.shadow-sm {
+    box-shadow: $box-shadow!important;
+}
+
+.shadow {
+    box-shadow: $box-shadow-sm!important;
+}
+
+.shadow-lg {
+    box-shadow: $box-shadow-md!important;
+}
+
+.shadow-xl {
+    box-shadow: $box-shadow-lg!important;
+}
+
+.w-31 {
+    width: 1.938rem;
+}
+
+.h-31 {
+    height: 1.938rem;
+}
+
+.w-44 {
+    width: 2.75rem;
+}
+
+.h-44 {
+    height: 2.75rem;
+}
+
+textarea {
+    resize: none;
+}
+
+@include media-breakpoint-down(md) {
+    .fs-1 {
+        font-size: 2.125rem!important;
+    }
+    .fs-2 {
+        font-size: 1.75rem!important;
+    }
+    .fs-3 {
+        font-size: 1.375rem!important;
+    }
+    .fs-4 {
+        font-size: .594rem!important;
+    }
+    .w-44 {
+        width: 1.313rem;
+    }
+    .h-44 {
+        height: 1.313rem;
+    }
+    .pt-6 {
+        padding-top: 2rem!important;
+    }
+    .pb-6 {
+        padding-bottom: 2rem!important;
+    }
+    .pb-7 {
+        padding-bottom: 1rem!important;
+    }
+    .rounded-1 {
+        border-radius: .313!important;
+    }
+}

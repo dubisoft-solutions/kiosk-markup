@@ -1,0 +1,95 @@
+// scss-docs-start font-variables
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: "Montserrat" !default;
+$font-family-title: 'Aleo' !default;
+$white: #FFFFFF;
+$light-255: #F5F5FF;
+$light-248: #F8F8F8;
+$light-gray: #E8E8E8;
+$red-70: #FF5346;
+$green-144: #38C290;
+$green-139: #2EB18B;
+$green-111: #229B6F;
+$green-119: #2D9577;
+$gray-203: #CBCBCB;
+$silver: #AEAEAE;
+$gray-159: #9F9F9F;
+$blue-126: #08627E;
+$blue-88: #183258;
+$blue-97: #314461;
+$gray: #777777;
+$black-40: #4F5153;
+$black-49: #232528;
+$black: #3A3A3A;
+// scss-docs-start color-variables
+$red: $red-70 !default;
+$green: $green-119 !default;
+$gradient: linear-gradient(96.14deg, #FF4839 -10.84%, #FF8B84 196.74%);
+// font sizes
+$font-size-base: .875rem;
+$headings-font-family: $font-family-title;
+$h1-font-size: 5rem;
+$h2-font-size: 4rem;
+$h3-font-size: 2.75rem;
+$h4-font-size: 1.875rem;
+$headings-font-weight: bold;
+$headings-line-height: 1;
+$font-weight-medium: 500;
+$font-sizes: ( 1: 5rem, 2: 3.5rem, 3: 3rem, 4: 1.25rem);
+$spacer: 1rem;
+$spacers: ( 0: 0, 1: $spacer * .25, 2: $spacer * .5, 3: $spacer, 4: $spacer * 1.5, 5: $spacer * 3, 6: $spacer * 6.25, 7: $spacer * 8.25);
+// box-shadow
+$box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2) !default;
+$box-shadow-sm: 0px 20px 30px rgba(45, 149, 119, 0.13) !default;
+$box-shadow-md: 0px 3.01622px 3.01622px rgba(0, 0, 0, 0.1) !default;
+$box-shadow-lg: 0px 20px 30px rgba(102, 106, 245, 0.13) !default;
+// buttons
+$btn-padding-y: 1rem;
+$btn-padding-x: 2rem;
+$btn-font-size: .938rem;
+$btn-font-weight: 600;
+$btn-line-height: 1rem;
+$btn-border-radius: .438rem;
+$btn-bg: linear-gradient(90.34deg, #FF5042 -11.61%, #FF8B84 197.88%);
+$btn-color: $white!default;
+$btn-box-shadow: $box-shadow;
+$btn-link-color: $blue-126;
+$btn-link-hover-color: $blue-88;
+// border
+$border-radius: .438rem;
+$border-radius-sm: .875rem;
+// dropdown
+$dropdown-padding-x: .625rem;
+$dropdown-padding-y: .375rem;
+$dropdown-item-padding-y: .5rem;
+$dropdown-item-padding-x: .75rem;
+$dropdown-font-size: .75rem;
+$dropdown-bg: $black-40;
+$dropdown-color: $white!default;
+$dropdown-link-color: $black-40;
+// break points
+$grid-breakpoints: (xxc:0, xs: 390px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440px, xxxl: 1548px, xxxxl: 1920px, xxxxxl: 2560px);
+// containers
+$container-max-widths: (xc: 355px, sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1267px, xxxl: 1375px, xxxxl: 1747px, xxxxxl: 2387px);
+// form-control
+$input-font-size: .688rem;
+$input-font-weight: $font-weight-medium;
+$input-color: $black;
+$input-bg: $light-248;
+$input-padding-y: .8rem;
+$input-padding-x: .5rem;
+$input-group-addon-color: $light-gray;
+$input-group-addon-border-color: $light-248;
+$input-group-addon-bg: $light-248;
+$form-feedback-invalid-color: $red-70;
+$form-feedback-icon-invalid-color: $red-70;
+$form-feedback-font-size: .75rem;
+// card
+$card-border-radius: 0;
+$card-border-color: $green-139;
+// modal
+$modal-content-bg: $white;
+$modal-backdrop-bg: $black-49;
+$modal-backdrop-opacity: .8;
+$modal-dialog-margin: 2.375rem;
+$modal-lg: 56.25rem;

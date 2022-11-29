@@ -1,0 +1,15 @@
+.navbar {
+    background: $black-49;
+    @include media-breakpoint-down(md) {
+        padding: 0;
+    }
+    .navbar-brand-img {
+        width: 7.188rem;
+        @include media-breakpoint-down(md) {
+            width: 3.875rem;
+        }
+        @include media-breakpoint-up(xxxxl) {
+            font-size: 10rem;
+        }
+    }
+}

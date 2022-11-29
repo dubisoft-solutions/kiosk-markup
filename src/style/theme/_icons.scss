@@ -1,0 +1,103 @@
+$font-icons-family-name: "IconsFont";
+@font-face {
+	font-family: "IconsFont";
+	src: url('../fonts/IconsFont.eot');
+	src: url('../fonts/IconsFont.eot?#iefix') format('eot'),
+		url('../fonts/IconsFont.woff2') format('woff2'),
+		url('../fonts/IconsFont.woff') format('woff'),
+		url('../fonts/IconsFont.ttf') format('truetype'),
+		url('../fonts/IconsFont.svg#IconsFont') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "IconsFont";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+$icon-name-arrow-back: "\E001"; 
+$icon-name-check: "\E002"; 
+$icon-name-flag: "\E003"; 
+$icon-name-happy: "\E004"; 
+$icon-name-heart: "\E005"; 
+$icon-name-mail: "\E006"; 
+$icon-name-message: "\E007"; 
+$icon-name-mobile: "\E008"; 
+
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == arrow-back {
+		$char: "\E001";
+	}
+	@if $filename == check {
+		$char: "\E002";
+	}
+	@if $filename == flag {
+		$char: "\E003";
+	}
+	@if $filename == happy {
+		$char: "\E004";
+	}
+	@if $filename == heart {
+		$char: "\E005";
+	}
+	@if $filename == mail {
+		$char: "\E006";
+	}
+	@if $filename == message {
+		$char: "\E007";
+	}
+	@if $filename == mobile {
+		$char: "\E008";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-arrow-back {
+	@include icon(arrow-back);
+}
+.icon-check {
+	@include icon(check);
+}
+.icon-flag {
+	@include icon(flag);
+}
+.icon-happy {
+	@include icon(happy);
+}
+.icon-heart {
+	@include icon(heart);
+}
+.icon-mail {
+	@include icon(mail);
+}
+.icon-message {
+	@include icon(message);
+}
+.icon-mobile {
+	@include icon(mobile);
+}

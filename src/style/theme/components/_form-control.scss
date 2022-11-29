@@ -12,9 +12,6 @@
         @include media-breakpoint-down(md) {
             font-size: .375rem;
         }
-        @include media-breakpoint-up(xxxxl) {
-            font-size: .875rem;
-        }
     }
     &:focus {
         box-shadow: none;
@@ -26,10 +23,6 @@
         border-top-left-radius: 0!important;
         border-bottom-left-radius: 0!important;
         padding: .641rem .188rem;
-    }
-    @include media-breakpoint-up(xxxxl) {
-        font-size: .875rem;
-        padding: .5rem .5rem;
     }
 }
 
@@ -63,9 +56,6 @@
         border-top-right-radius: 0!important;
         border-bottom-right-radius: 0!important;
         padding: .43rem .2rem;
-    }
-    @include media-breakpoint-up(xxxxl) {
-        padding: .5rem .5rem;
     }
 }
 

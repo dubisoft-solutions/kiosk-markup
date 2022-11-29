@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Kiosk</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body class="index position-relative">
+    <main>
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand d-block" href="./index.html">
+                        <img src="img/logo.svg" class="navbar-brand-img" alt="logo">
+                    </a>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuLanguage" data-bs-toggle="dropdown" aria-expanded="false">ENG</button>
+                        <div class="dropdown-menu dropdown-style border-0 w-100 dropdown-menu-end" aria-labelledby="dropdownMenuLanguage">
+                            <ul>
+                                <li><a class="dropdown-item text-start" href="#">ENG</a></li>
+                                <li><a class="dropdown-item text-start" href="#">ENG</a></li>
+                                <li><a class="dropdown-item text-start" href="#">ENG</a></li>
+                                <li><a class="dropdown-item text-start" href="#">ENG</a></li>
+                                <li><a class="dropdown-item text-start" href="#">ENG</a></li>
+                                <li><a class="dropdown-item text-start" href="#">ENG</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Main section -->
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center pt-6 pb-7">
+                    <div class="col-xxxxl-7 col-lg-6 col-9">
+                        <h1 class="text-dark text-capitalize text-lg-start mb-3">Get <span class="heading-color">unlimited access</span>
+                        </h1>
+                        <h4 class="text-capitalize text-dark fw-normal mb-lg-4 mb-3">To more than 130 of the world’s <span class="d-lg-block d-inline">Top magazines and newspapers</span>
+                        </h4>
+                        <p class="mb-lg-4 mb-lg-3 mb-0 pb-lg-1 pb-0">In order to unsubscribe from The Kiosk, kindly give us your email <span class="d-lg-block d-inline">address and mobile phone number. We will send you an SMS.</span>
+                        </p>
+
+                        <form class="needs-validation d-lg-block d-none" novalidate>
+                            <div class="row mb-lg-4 mb-2">
+                                <div class="col-lg-5">
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="basic-email">
+                                            <icon class="icon icon-mail text-success icon-size"></icon>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 offset-lg-3 text-end">
+                                    <div class="grecaptcha recaptcha-style"></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-5 pe-1">
+                                    <div class="input-group rounded-1">
+                                        <span class="input-group-text" id="basic-country">
+                                                <icon class="icon icon-flag text-success icon-size"></icon>
+                                            </span>
+                                        <select class="selectpicker form-control" title="Country Code" id="basic-country">
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-7 ps-1">
+                                    <div class="input-group rounded-1 has-validation">
+                                        <span class="input-group-text" id="basic-phone">
+                                                <icon class="icon icon-mobile text-success icon-size"></icon>
+                                            </span>
+                                        <input type="text" class="form-control" placeholder="Enter your phone number" aria-label="Phone number" aria-describedby="basic-phone" required>
+                                        <div class="invalid-feedback">
+                                            Invalid number*
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12 mt-lg-0 mt-4 text-lg-end text-center">
+                                    <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#requestAcceptedModal">Send SMS</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xxxxl-5 offset-xxxxl-0 col-lg-5 offset-lg-1 col-3 ps-0 ps-lg-3">
+                        <div class="row">
+                            <div class="col-xxxxl-6 col-lg-6 text-center text-md-end position-relative">
+                                <img src="img/hero-img-1.png" alt="Image" class="hero-img-decor-one">
+                            </div>
+                            <div class="col-xxxxl-6 col-lg-6 text-center text-md-end position-relative">
+                                <img src="img/hero-img-2.png" alt="Image" class="hero-img-decor-two d-lg-block d-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-lg-none d-block mb-4 pb-3">
+                    <div class="col-lg-12">
+                        <form class="needs-validation" novalidate>
+                            <div class="row mb-lg-4 mb-2">
+                                <div class="col-lg-5 col-7">
+                                    <div class="input-group">
+                                        <span class="input-group-text" id="basic-email">
+                                            <icon class="icon icon-mail text-success icon-size d-grid"></icon>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 offset-lg-3 col-5 offset-0 text-end">
+                                    <div class="grecaptcha recaptcha-style"></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-3 pe-1">
+                                    <div class="input-group rounded-1">
+                                        <span class="input-group-text" id="basic-country">
+                                                <icon class="icon icon-flag text-success icon-size d-grid"></icon>
+                                            </span>
+                                        <select class="selectpicker form-control" title="Country Code" id="basic-country">
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                                <option>SPAIN (+34)</option>
+                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-5 px-1">
+                                    <div class="input-group rounded-1 has-validation">
+                                        <span class="input-group-text" id="basic-phone">
+                                                <icon class="icon icon-mobile text-success icon-size d-grid"></icon>
+                                            </span>
+                                        <input type="text" class="form-control" placeholder="Enter your phone number" aria-label="Phone number" aria-describedby="basic-phone" required>
+                                        <div class="invalid-feedback">
+                                            Invalid number*
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 text-end">
+                                    <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#requestAcceptedModal">Send SMS</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="container">
+                <div class="row justify-content-center d-lg-none d-block">
+                    <div class="col-lg-12 text-center">
+                        <h3 class="text-dark mb-lg-4 mb-4 pb-lg-2">Simple As This :</h3>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5 pb-lg-2 pb-0">
+                    <div class="col-lg-5 col-sm-4 col-2 text-center">
+                        <div class="row">
+                            <div class="col-xxxxl-6 col-lg-6 text-center text-md-end order-lg-1 order-0 position-relative">
+                                <img src="img/step-img-1.png" alt="Image" class="hero-img-decor-one d-lg-block d-none">
+                            </div>
+                            <div class="col-xxxxl-6 col-lg-6 col-sm-8 text-center text-md-end order-lg-1 order-0 position-relative">
+                                <img src="img/step-img-2.png" alt="Image" class="hero-img-decor-two">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 col-sm-8 offset-sm-4 col-10 offset-2">
+                        <h3 class="text-dark mb-lg-4 mb-4 pb-lg-2 d-lg-block d-none">Simple As This :</h3>
+
+                        <div class="bg-white shadow rounded-2 p-lg-5 p-4">
+                            <div class="d-flex align-items-center mb-lg-5 mb-3">
+                                <div class="position-relative">
+                                    <h3 class="fs-3 fw-bold text-dark position-absolute number-decor">1</h3>
+                                    <div class="w-44 h-44 bg-green rounded-circle d-flex justify-content-center align-items-center">
+                                    </div>
+                                </div>
+                                <p class="fs-4 description-color ps-lg-4 ps-3">You will receive an email from the helpdesk with a confirmation, please contact us in the same thread. </p>
+                            </div>
+                            <div class="d-flex align-items-center mb-lg-5 mb-3">
+                                <div class="position-relative">
+                                    <h3 class="fs-3 fw-bold text-dark position-absolute number-decor">2</h3>
+                                    <div class="w-44 h-44 bg-green rounded-circle d-flex justify-content-center align-items-center">
+                                    </div>
+                                </div>
+                                <p class="fs-4 description-color ps-lg-4 ps-3">You'll receive an SMS with an unsubscribe link.</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="position-relative">
+                                    <h3 class="fs-3 fw-bold text-dark position-absolute number-decor">3</h3>
+                                    <div class="w-44 h-44 bg-green rounded-circle d-flex justify-content-center align-items-center">
+                                    </div>
+                                </div>
+                                <p class="fs-4 description-color ps-lg-4 ps-3">Done! Your request has been approved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer mt-auto">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-9">
+                        <p class="text-secondary mb-0">©Thekiosk2022 All the rights reserved</p>
+                    </div>
+                    <div class="col-3 text-end">
+                        <a href="contact-us.html" class="btn btn-link p-0">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Request accepted Modal -->
+    <div class="modal fade" id="requestAcceptedModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="requestAcceptedModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered position-relative">
+            <div class="modal-content">
+                <div class="pt-3 pe-md-3 pe-0 ms-auto close-button">
+                    <div class="w-31 h-31 rounded-circle bg-white d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="bg-card h-100 d-flex justify-content-center align-items-center">
+                                    <img src="img/request-img.svg" alt="Request Done" class="w-75">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card-body">
+                                    <h2 class="text-dark mb-lg-5 mb-3">Request <span class="text-success d-lg-block d-inline">done</span></h2>
+                                    <p class="fw-medium mb-lg-5">Thank you for your request, we just sent you an email and an SMS. Please connect via 3G on your mobile device and click on the URL..</p>
+
+                                    <div class="text-center pt-3">
+                                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+
+
+<!-- do not use this file in prod. See the comments inside the file -->
+<script src="js/markup-controller.js"></script>
+
+</html>

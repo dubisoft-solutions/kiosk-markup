@@ -43,56 +43,62 @@
             &::after {
                 background-size: cover;
             }
-        }
-        .hero-img-decor-one {
-            position: absolute;
-            top: 5rem!important;
-            left: 0;
-            width: 90%;
-        }
-        .hero-img-decor-two {
-            position: absolute;
-            top: -5.5rem!important;
-            right: 0;
-            width: 90%;
-        }
-        @include media-breakpoint-down(sm) {
-            h4 {
-                font-size: 1rem!important;
-            }
-            p {
-                font-size: .438rem;
-            }
             .hero-img-decor-one {
                 position: absolute;
-                bottom: -405px;
-                left: 0;
-            }
-            .hero-img-decor-two {
-                position: absolute;
-                top: -65px;
-                right: -195px;
-            }
-        }
-        @include media-breakpoint-between(sm,
-        lg) {
-            .pb-6 {
-                padding-bottom: 2rem!important;
-            }
-            .hero-img-decor-one {
-                position: absolute;
-                bottom: -26.5rem!important;
+                top: 90px;
                 left: 0;
                 width: 90%;
             }
             .hero-img-decor-two {
                 position: absolute;
-                top: -1rem!important;
+                top: -4rem;
                 right: 0;
                 width: 90%;
             }
-        }
-        main {
+            @include media-breakpoint-down(sm) {
+                h4 {
+                    font-size: 1rem!important;
+                }
+                p {
+                    font-size: .438rem;
+                }
+                .hero-img-decor-one {
+                    position: absolute;
+                    top: 17rem;
+                    left: 0;
+                }
+                .hero-img-decor-two {
+                    position: absolute;
+                    top: -4rem;
+                    right: -170px;
+                }
+            }
+            @include media-breakpoint-between(sm,
+            xl) {
+                .pb-6 {
+                    padding-bottom: 2rem!important;
+                }
+                .hero-img-decor-one {
+                    position: absolute;
+                    top: 70px;
+                    left: 0;
+                    width: 90%;
+                }
+                .hero-img-decor-two {
+                    position: absolute;
+                    top: -1rem;
+                    right: 0;
+                    width: 90%;
+                }
+            }
+            @include media-breakpoint-up(xxxxl) {
+                .hero-img-decor-one {
+                    width: 50%;
+                }
+                .hero-img-decor-two {
+                    width: 50%;
+                }
+            }
             &::before {
                 @include media-breakpoint-between(md,
                 lg) {

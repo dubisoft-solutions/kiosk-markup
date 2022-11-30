@@ -63,12 +63,16 @@
     .form-control {
         background-color: $light-255!important;
         border-radius: 0!important;
-        padding: .5rem;
+        padding: 1rem .5rem;
         &:focus {
             box-shadow: none;
         }
         &::placeholder {
             font-style: normal;
+        }
+        @include media-breakpoint-down(md) {
+            padding: .5rem;
+            font-size: .438rem;
         }
     }
 }

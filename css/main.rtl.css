@@ -15380,13 +15380,19 @@ textarea.form-control-lg {
 .contact-form .form-control {
   background-color: #F5F5FF !important;
   border-radius: 0 !important;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
 }
 .contact-form .form-control:focus {
   box-shadow: none;
 }
 .contact-form .form-control::placeholder {
   font-style: normal;
+}
+@media (max-width: 767.98px) {
+  .contact-form .form-control {
+    padding: 0.5rem;
+    font-size: 0.438rem;
+  }
 }
 
 .invalid-feedback {
@@ -16415,51 +16421,59 @@ p {
 .index.contact main::after {
   background-size: cover;
 }
-.index.contact .hero-img-decor-one {
+.index.contact main .hero-img-decor-one {
   position: absolute;
-  top: 5rem !important;
+  top: 90px;
   right: 0;
   width: 90%;
 }
-.index.contact .hero-img-decor-two {
+.index.contact main .hero-img-decor-two {
   position: absolute;
-  top: -5.5rem !important;
+  top: -4rem;
   left: 0;
   width: 90%;
 }
 @media (max-width: 575.98px) {
-  .index.contact h4, .index.contact .h4 {
+  .index.contact main h4, .index.contact main .h4 {
     font-size: 1rem !important;
   }
-  .index.contact p {
+  .index.contact main p {
     font-size: 0.438rem;
   }
-  .index.contact .hero-img-decor-one {
+  .index.contact main .hero-img-decor-one {
     position: absolute;
-    bottom: -405px;
+    top: 17rem;
     right: 0;
   }
-  .index.contact .hero-img-decor-two {
+  .index.contact main .hero-img-decor-two {
     position: absolute;
-    top: -65px;
-    left: -195px;
+    top: -4rem;
+    left: -170px;
   }
 }
-@media (min-width: 576px) and (max-width: 991.98px) {
-  .index.contact .pb-6 {
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .index.contact main .pb-6 {
     padding-bottom: 2rem !important;
   }
-  .index.contact .hero-img-decor-one {
+  .index.contact main .hero-img-decor-one {
     position: absolute;
-    bottom: -26.5rem !important;
+    top: 70px;
     right: 0;
     width: 90%;
   }
-  .index.contact .hero-img-decor-two {
+  .index.contact main .hero-img-decor-two {
     position: absolute;
-    top: -1rem !important;
+    top: -1rem;
     left: 0;
     width: 90%;
+  }
+}
+@media (min-width: 1920px) {
+  .index.contact main .hero-img-decor-one {
+    width: 50%;
+  }
+  .index.contact main .hero-img-decor-two {
+    width: 50%;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {

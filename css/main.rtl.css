@@ -16470,26 +16470,24 @@ p {
 }
 @media (min-width: 1920px) {
   .index.contact main .hero-img-decor-one {
-    width: 50%;
+    width: 90%;
   }
   .index.contact main .hero-img-decor-two {
-    width: 50%;
+    width: 90%;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .index.contact main::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    bottom: 0;
-    left: 80px;
-    z-index: -1;
-    background-image: url("../img/step-img-4-mobile.png");
-  }
+.index.contact main::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 80px;
+  z-index: -1;
+  background-image: url("../img/step-img-4.png");
 }
 @media (max-width: 767.98px) {
   .index.contact main::before {

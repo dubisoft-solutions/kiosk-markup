@@ -93,27 +93,24 @@
             }
             @include media-breakpoint-up(xxxxl) {
                 .hero-img-decor-one {
-                    width: 50%;
+                    width: 90%;
                 }
                 .hero-img-decor-two {
-                    width: 50%;
+                    width: 90%;
                 }
             }
             &::before {
-                @include media-breakpoint-between(md,
-                lg) {
-                    content: "";
-                    display: block;
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    background-position: bottom right;
-                    background-repeat: no-repeat;
-                    bottom: 0;
-                    right: 80px;
-                    z-index: -1;
-                    background-image: url("../img/step-img-4-mobile.png");
-                }
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background-position: bottom right;
+                background-repeat: no-repeat;
+                bottom: 0;
+                right: 80px;
+                z-index: -1;
+                background-image: url("../img/step-img-4.png");
                 @include media-breakpoint-down(md) {
                     content: "";
                     display: block;

@@ -15371,7 +15371,7 @@ textarea.form-control-lg {
 }
 
 .form-control.prepand-icon {
-  padding-right: calc(1.25em + 1.5rem);
+  padding-right: calc(1.25em + 1.7rem);
   background-position: 8px, 22px;
   background-repeat: no-repeat, no-repeat;
   background-size: calc(0.75em + 0.8rem) calc(0.75em + 0.8rem);

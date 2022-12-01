@@ -109,9 +109,6 @@
             background: $green-139;
             border-radius: .25rem;
         }
-        @include media-breakpoint-down(md) {
-            padding: .5rem 0;
-        }
     }
 }
 

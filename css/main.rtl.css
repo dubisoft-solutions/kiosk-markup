@@ -16384,11 +16384,13 @@ textarea {
   .pb-6 {
     padding-bottom: 2rem !important;
   }
-  .pb-7 {
-    padding-bottom: 1rem !important;
-  }
   .rounded-1 {
     border-radius: 0.313 !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .pb-7 {
+    padding-bottom: 1rem !important;
   }
 }
 p {

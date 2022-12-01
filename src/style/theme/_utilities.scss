@@ -95,10 +95,13 @@ textarea {
     .pb-6 {
         padding-bottom: 2rem!important;
     }
-    .pb-7 {
-        padding-bottom: 1rem!important;
-    }
     .rounded-1 {
         border-radius: .313!important;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .pb-7 {
+        padding-bottom: 1rem!important;
     }
 }

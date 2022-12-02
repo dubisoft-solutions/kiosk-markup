@@ -3419,7 +3419,7 @@ textarea.form-control-lg {
   --bs-btn-border-color: transparent;
   --bs-btn-border-radius: 0.438rem;
   --bs-btn-hover-border-color: transparent;
-  --bs-btn-box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+  --bs-btn-box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2);
   --bs-btn-disabled-opacity: 0.65;
   --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
   display: inline-block;
@@ -3868,7 +3868,7 @@ textarea.form-control-lg {
   --bs-dropdown-inner-border-radius: calc(0.438rem - 1px);
   --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
   --bs-dropdown-divider-margin-y: 0.5rem;
-  --bs-dropdown-box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+  --bs-dropdown-box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2);
   --bs-dropdown-link-color: #4F5153;
   --bs-dropdown-link-hover-color: #47494b;
   --bs-dropdown-link-hover-bg: #e9ecef;
@@ -6165,7 +6165,7 @@ textarea.form-control-lg {
   --bs-toast-border-width: 1px;
   --bs-toast-border-color: var(--bs-border-color-translucent);
   --bs-toast-border-radius: 0.438rem;
-  --bs-toast-box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+  --bs-toast-box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2);
   --bs-toast-header-color: #6c757d;
   --bs-toast-header-bg: rgba(255, 255, 255, 0.85);
   --bs-toast-header-border-color: rgba(58, 58, 58, 0.05);
@@ -6371,7 +6371,7 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .modal {
     --bs-modal-margin: 1.75rem;
-    --bs-modal-box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+    --bs-modal-box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2);
   }
   .modal-dialog {
     max-width: var(--bs-modal-width);
@@ -6696,7 +6696,7 @@ textarea.form-control-lg {
   --bs-popover-border-color: var(--bs-border-color-translucent);
   --bs-popover-border-radius: 0.5rem;
   --bs-popover-inner-border-radius: calc(0.5rem - 1px);
-  --bs-popover-box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+  --bs-popover-box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2);
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 0.875rem;
@@ -8473,7 +8473,7 @@ textarea.form-control-lg {
 }
 
 .shadow {
-  box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2) !important;
+  box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2) !important;
 }
 
 .shadow-sm {
@@ -15280,11 +15280,11 @@ textarea.form-control-lg {
 
 .btn-success {
   color: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+  box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2);
   min-width: 9.75rem;
 }
 .btn-success:focus, .btn-success:hover, .btn-success:active {
-  box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2);
+  box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2);
   color: #FFFFFF;
   background-color: #2D9577;
 }
@@ -16324,7 +16324,7 @@ select.selectpicker {
 }
 
 .shadow-sm {
-  box-shadow: 0px 4px 4px rgba(255, 83, 70, 0.2) !important;
+  box-shadow: 0px 4px 4px rgba(176, 202, 194, 0.2) !important;
 }
 
 .shadow {

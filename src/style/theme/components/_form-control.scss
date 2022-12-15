@@ -4,13 +4,13 @@
         font-style: italic;
         color: $silver;
         @include media-breakpoint-down(md) {
-            font-size: .375rem;
+            font-size: .563rem;
         }
     }
     @include media-breakpoint-down(md) {
         border-width: 4px;
         font-size: .5rem;
-        padding: .32rem .188rem;
+        padding: .795rem .188rem;
     }
 }
 

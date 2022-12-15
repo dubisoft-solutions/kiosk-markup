@@ -10,9 +10,9 @@
         background-color: $green-119;
     }
     @include media-breakpoint-down(md) {
-        font-size: .625rem;
-        padding: .375rem 1rem;
-        min-width: 5.875rem;
+        font-size: .813rem;
+        padding: .86rem 1rem;
+        min-width: 8.75rem;
     }
 }
 

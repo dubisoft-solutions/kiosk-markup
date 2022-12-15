@@ -51,7 +51,7 @@
                 &:hover,
                 &:focus {
                     color: $white;
-                    background-color: $black;
+                    background-color: #CFE9E2;
                     border-radius: .125rem;
                 }
                 @include media-breakpoint-down(md) {

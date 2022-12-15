@@ -14,7 +14,7 @@
             font-style: italic;
             color: $silver;
             @include media-breakpoint-down(md) {
-                font-size: .375rem;
+                font-size: .563rem;
             }
         }
         &:focus {
@@ -24,8 +24,8 @@
         }
         @include media-breakpoint-down(md) {
             border-width: 4px;
-            font-size: .375rem;
-            padding: .188rem;
+            font-size: .563rem;
+            padding: .675rem .375rem;
         }
         &.show,
         &:active,
@@ -37,9 +37,13 @@
         }
     }
     .dropdown-toggle {
+        &:after {
+            color: $green-119;
+        }
         &.show {
             &:after {
                 transform: rotate(180deg);
+                color: $green-119;
             }
         }
         &::before {
@@ -82,13 +86,13 @@
                 &.active,
                 &:hover,
                 &:focus {
-                    color: $white;
-                    background-color: $black;
+                    color: $silver;
+                    background-color: #CFE9E2;
                     border-radius: .125rem;
                 }
                 @include media-breakpoint-down(md) {
-                    font-size: .5rem;
-                    padding: .35rem .25rem;
+                    font-size: .75rem;
+                    padding: .35rem .75rem;
                 }
                 @include media-breakpoint-up(xxxxl) {
                     font-size: 1rem;
@@ -117,7 +121,7 @@
     font-style: italic;
     color: $silver;
     @include media-breakpoint-down(md) {
-        font-size: .375rem;
+        font-size: .563rem;
     }
 }
 
@@ -129,7 +133,7 @@
     font-style: italic;
     color: $silver;
     @include media-breakpoint-down(md) {
-        font-size: .375rem;
+        font-size: .563rem;
     }
 }
 

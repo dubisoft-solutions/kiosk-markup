@@ -77,9 +77,9 @@
     }
 }
 
-.form-control.is-invalid,
-.was-validated .form-control:invalid {
-    background-image: url("../img/mobile.svg"), url("data:image/svg+xml,%3Csvg width='2' height='29' viewBox='0 0 2 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.457031' y='0.802979' width='1.50811' height='27.9' rx='0.754054' fill='%23E8E8E8'/%3E%3C/svg%3E%0A"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23FF5346'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23FF5346' stroke='none'/%3e%3c/svg%3e");
+.form-control.prepand-icon.mail.is-invalid,
+.was-validated .form-control.prepand-icon.mail:invalid {
+    background-image: url("../img/mail.svg"), url("data:image/svg+xml,%3Csvg width='2' height='29' viewBox='0 0 2 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.457031' y='0.802979' width='1.50811' height='27.9' rx='0.754054' fill='%23E8E8E8'/%3E%3C/svg%3E%0A"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23FF5346'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23FF5346' stroke='none'/%3e%3c/svg%3e");
     background-position: 10px, 25px, calc(100% - 10px);
     background-repeat: no-repeat, no-repeat, no-repeat;
     border-color: $white;
@@ -89,9 +89,9 @@
     }
 }
 
-.form-control.is-valid,
-.was-validated .form-control:valid {
-    background-image: url("../img/mail.svg"), url("data:image/svg+xml,%3Csvg width='2' height='29' viewBox='0 0 2 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.457031' y='0.802979' width='1.50811' height='27.9' rx='0.754054' fill='%23E8E8E8'/%3E%3C/svg%3E%0A"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%232D9577' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+.form-control.prepand-icon.mobile.is-valid,
+.was-validated .form-control.prepand-icon.mobile:invalid {
+    background-image: url("../img/mobile.svg"), url("data:image/svg+xml,%3Csvg width='2' height='29' viewBox='0 0 2 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.457031' y='0.802979' width='1.50811' height='27.9' rx='0.754054' fill='%23E8E8E8'/%3E%3C/svg%3E%0A"), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23FF5346'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23FF5346' stroke='none'/%3e%3c/svg%3e");
     background-position: 10px, 25px, calc(100% - 10px);
     background-repeat: no-repeat, no-repeat, no-repeat;
     border-color: $white;

@@ -52,19 +52,25 @@
                             </div>
                             <div class="row mb-lg-4 mb-2">
                                 <div class="col-lg-5">
-                                    <input type="email" class="form-control prepand-icon mail" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                    <input type="email" required class="form-control prepand-icon mail" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                    <div class="invalid-feedback">
+                                        Required field*
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-xxxxxl-2 col-xxxxl-3 col-lg-3 col-5 pe-1">
-                                    <select class="selectpicker form-control prepand-icon flag" title="Country Code" id="basic-country">
+                                    <select class="selectpicker form-control prepand-icon flag" title="Country Code" id="basic-country" required>
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                     </select>
+                                    <div class="invalid-feedback">
+                                        Required field*
+                                    </div>
                                 </div>
                                 <div class="col-xxxxxl-3 col-xxxxl-4 col-lg-5 col-7 ps-1">
                                     <div class="has-validation">
@@ -75,7 +81,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xxxxxl-3 col-xxxxl-3 col-lg-4 col-12 mt-lg-0 mt-4 text-lg-start text-center">
-                                    <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#requestAcceptedModal">Send SMS</button>
+                                    <button type="submit" class="btn btn-success">Send SMS</button>
                                 </div>
                             </div>
                         </form>
@@ -101,19 +107,25 @@
                             </div>
                             <div class="row mb-lg-4 mb-2">
                                 <div class="col-lg-5 col-8">
-                                    <input type="email" class="form-control prepand-icon mail" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                    <input type="email" required class="form-control prepand-icon mail" placeholder="Enter your email" aria-label="Email" aria-describedby="basic-email">
+                                    <div class="invalid-feedback">
+                                        Required field*
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-lg-3 col-5 pe-lg-1 pe-0 mb-lg-0 mb-2">
-                                    <select class="selectpicker form-control prepand-icon flag" title="Country Code" id="basic-country">
+                                    <select class="selectpicker form-control prepand-icon flag" title="Country Code" required id="basic-country">
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                         <option>SPAIN (+34)</option>
                                     </select>
+                                    <div class="invalid-feedback">
+                                        Required field*
+                                    </div>
                                 </div>
                                 <div class="col-lg-5 col-8 ps-lg-1 ps-initial mb-lg-0 mb-3">
                                     <div class="has-validation">
@@ -127,7 +139,7 @@
                                     <div class="grecaptcha recaptcha-style"></div>
                                 </div>
                                 <div class="col-lg-4 col-12 text-center">
-                                    <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#requestAcceptedModal">Send SMS</button>
+                                    <button type="submit" class="btn btn-success">Send SMS</button>
                                 </div>
                             </div>
                         </form>

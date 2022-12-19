@@ -16134,6 +16134,13 @@ select.selectpicker {
   box-shadow: none !important;
 }
 
+.bootstrap-select.is-invalid .dropdown-toggle,
+.error .bootstrap-select .dropdown-toggle,
+.has-error .bootstrap-select .dropdown-toggle,
+.was-validated .bootstrap-select select:invalid + .dropdown-toggle {
+  border: 5px solid #FFFFFF;
+}
+
 .fw-medium {
   font-weight: 500;
 }

@@ -143,3 +143,10 @@
 .bootstrap-select .dropdown-toggle.btn-light:hover {
     box-shadow: none!important;
 }
+
+.bootstrap-select.is-invalid .dropdown-toggle,
+.error .bootstrap-select .dropdown-toggle,
+.has-error .bootstrap-select .dropdown-toggle,
+.was-validated .bootstrap-select select:invalid+.dropdown-toggle {
+    border: 5px solid $white;
+}

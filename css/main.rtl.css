@@ -15342,9 +15342,14 @@ textarea.form-control-lg {
   font-style: normal;
 }
 @media (max-width: 767.98px) {
+  .contact-form .form-control::placeholder {
+    font-size: 0.625rem;
+  }
+}
+@media (max-width: 767.98px) {
   .contact-form .form-control {
     padding: 0.5rem;
-    font-size: 0.438rem;
+    font-size: 0.625rem;
   }
 }
 
@@ -16257,7 +16262,7 @@ p {
     font-size: 2.125rem;
   }
   h2, .h2 {
-    font-size: 1.5rem;
+    font-size: 2.125rem;
   }
   h3, .h3 {
     font-size: 1.313rem;
@@ -16266,7 +16271,7 @@ p {
     font-size: 0.875rem;
   }
   p {
-    font-size: 0.688rem;
+    font-size: 0.75rem;
   }
 }
 @media (min-width: 1920px) {
@@ -16333,10 +16338,10 @@ p {
 }
 @media (max-width: 575.98px) {
   .index.contact main h4, .index.contact main .h4 {
-    font-size: 1rem !important;
+    font-size: 1.031rem !important;
   }
   .index.contact main p {
-    font-size: 0.438rem;
+    font-size: 0.625rem;
   }
   .index.contact main .hero-img-decor-one {
     position: absolute;
